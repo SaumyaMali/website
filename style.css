@@ -1,40 +1,97 @@
-body{
-    background-color: white ;
-    overflow: hidden;
-}
-.topnav a{
-    margin-left: auto;
-    padding: 14px 16px;
-    max-width: 500px;
-    color: black;
+body {
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-science-education-background_23-2148499325.jpg?size=626&ext=jpg&ga=GA1.1.117251206.1715150609&semt=ais);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+h2 {
+    font-size: 30px;
+  }
+  
+.established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
     text-align: center;
-    text-decoration:    none;
-    font-size: 20px;
-    
-}
-.physics:hover{
-    
-    background-size: 90%;   
-    color:black;
-    border-radius: 20px;
-    background-image:url(https://cdn.pixabay.com/photo/2016/09/29/08/33/apple-1702316_640.jpg);
-}
-.chemistry:hover{
-    
-    background-size: 90%;   
-    color:black;
-    border-radius: 20px;
-    background-image:url(https://cdn.pixabay.com/photo/2017/11/11/11/30/chemistry-2938901_640.jpg);
-}
-
-.biology:hover{
-    
-    background-size: 90%;   
-    color:white;
-    border-radius: 20px;
-    background-image:url(https://cdn.pixabay.com/photo/2016/11/09/15/27/dna-1811955_640.jpg);
-}
-
-
-
-
+  }
+  
+.menu {
+    border-style: dashed;
+    width: 80%;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  
+hr {
+    height: 2px;
+    background-color: black;
+    border-color: black;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+.price {
+    text-align: right;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+footer {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+.address {
+    margin-bottom: 5px;
+  }
+  
+a {
+    color: black;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: black;
+  }
+  
+a:hover {
+    color: blue;
+  }
+  
+a:active {
+    color: brown;
+  }

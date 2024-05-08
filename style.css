@@ -1,25 +1,40 @@
 body{
-    background-color: grey ;
+    background-color: white ;
     overflow: hidden;
 }
 .topnav a{
+    margin-left: auto;
     padding: 14px 16px;
-    float: left;
+    max-width: 500px;
     color: black;
     text-align: center;
     text-decoration:    none;
     font-size: 20px;
     
 }
-
-.topnav a:hover{
-    background-color: rgb(43, 69, 218);
-    animation: alternate;
-    animation-duration: 1s;
-    color: black;
-}
-
-.topnav a.active{
+.physics:hover{
     
-    color: black;
+    background-size: 90%;   
+    color:black;
+    border-radius: 20px;
+    background-image:url(https://cdn.pixabay.com/photo/2016/09/29/08/33/apple-1702316_640.jpg);
 }
+.chemistry:hover{
+    
+    background-size: 90%;   
+    color:black;
+    border-radius: 20px;
+    background-image:url(https://cdn.pixabay.com/photo/2017/11/11/11/30/chemistry-2938901_640.jpg);
+}
+
+.biology:hover{
+    
+    background-size: 90%;   
+    color:white;
+    border-radius: 20px;
+    background-image:url(https://cdn.pixabay.com/photo/2016/11/09/15/27/dna-1811955_640.jpg);
+}
+
+
+
+

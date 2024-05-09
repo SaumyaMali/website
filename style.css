@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-science-education-background_23-2148499325.jpg?size=626&ext=jpg&ga=GA1.1.117251206.1715150609&semt=ais);
     font-family: sans-serif;
     padding: 20px;
   }
@@ -14,13 +14,15 @@ h2 {
     font-size: 30px;
   }
   
-
+.established {
+    font-style: italic;
+  }
   
   h1, h2, p {
     text-align: center;
   }
   
-.main {
+.menu {
     border-style: dashed;
     width: 80%;
     background-color:white;
@@ -49,19 +51,22 @@ h1, h2 {
     font-family: Impact, serif;
   }
   
-.chapter p {
+.item p {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
   }
   
-.topic {
+.flavor, .dessert {
     text-align: left;
     width: 75%;
   }
   
-
+.price {
+    text-align: right;
+    width: 25%;
+  }
   
   /* FOOTER */
   

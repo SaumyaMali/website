@@ -14,15 +14,13 @@ h2 {
     font-size: 30px;
   }
   
-.established {
-    font-style: italic;
-  }
+
   
   h1, h2, p {
     text-align: center;
   }
   
-.menu {
+.main {
     border-style: dashed;
     width: 80%;
     background-color:white;
@@ -51,22 +49,19 @@ h1, h2 {
     font-family: Impact, serif;
   }
   
-.item p {
+.chapter p {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
   }
   
-.flavor, .dessert {
+.topic {
     text-align: left;
     width: 75%;
   }
   
-.price {
-    text-align: right;
-    width: 25%;
-  }
+
   
   /* FOOTER */
   

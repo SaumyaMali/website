@@ -50,8 +50,5 @@ ol a{
 hr{
     border-color: black;
     color: black;
-    height: 1;
-}
-section{
-    width: fit-content;
+    height: 1px;
 }

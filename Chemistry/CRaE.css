@@ -54,6 +54,7 @@ hr{
 }
 .eq-c {
     text-align: justify;
+    font-size: 20px;
   }
   
 .heat-arrow {
@@ -70,4 +71,12 @@ hr{
   
 .arrow {
     padding-left: 0.5em; /* add some space for the heat symbol */
+    font-size: 1em;
   }
+
+  h3{
+    font-size: 25px;
+}
+p{
+    font-size: 20px;
+}  

@@ -77,6 +77,13 @@ hr{
   h3{
     font-size: 25px;
 }
+.heat-symbol1{
+    position: absolute;
+    right: 0.31em;
+    top: -0.5em;
+    font-size:0.45em ;
+}
+
 p{
     font-size: 20px;
 }  

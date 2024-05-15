@@ -83,7 +83,14 @@ hr{
     top: -0.5em;
     font-size:0.45em ;
 }
+hr{
+    background-color: black;
+
+}
 
 p{
     font-size: 20px;
 }  
+.list{
+    font-size: 20px;
+}
